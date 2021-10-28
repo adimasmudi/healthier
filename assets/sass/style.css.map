@@ -1,0 +1,17 @@
+{
+    "version": 3,
+    "mappings": "AIAA,AAAA,IAAI,CAAA;EACA,gBAAgB,EHDH,OAAO;CGEvB",
+    "sources": [
+        "style.scss",
+        "_variable.scss",
+        "_components.scss",
+        "_mixin.scss",
+        "_index.scss",
+        "_about.scss",
+        "_artikel.scss",
+        "_contact.scss",
+        "dashboard/_dashboard.scss"
+    ],
+    "names": [],
+    "file": "style.css"
+}

@@ -1,0 +1,14 @@
+@import 'variable';
+@import 'components';
+@import 'mixin';
+
+// style per page
+
+@import 'index';
+@import 'about';
+@import 'artikel';
+@import 'contact';
+
+// style in dashboard
+
+@import 'dashboard/dashboard';
