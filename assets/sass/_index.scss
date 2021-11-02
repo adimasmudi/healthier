@@ -1,3 +1,74 @@
-body{
+// variabel
+$primarycolor: #215a80;
+$secondarycolor: #6acbda;
+$main-bg-color: #e9ecef;
+
+body {
     background-color: $main-bg-color;
+}
+.custom-nav {
+    background-color: $main-bg-color;
+    .navbar-brand {
+        img {
+            width: 50px;
+            height: 40px;
+        }
+        span {
+            color: $primarycolor;
+            font-family: Hannari;
+            font-weight: bold;
+            margin-left: 1em;
+        }
+    }
+}
+#navbarNav {
+    .navbar-nav {
+        .nav-item {
+            .nav-link {
+                color: $primarycolor;
+                font-family: Roboto;
+                // text-transform: uppercase;
+                font-weight: 600;
+                margin-left: 2.5em;
+            }
+        }
+    }
+}
+
+.banner {
+    margin-top: 8em;
+    .container {
+        .row {
+            h1 {
+                font-family: Roboto;
+                font-weight: 700;
+                font-size: 2.5rem;
+                span {
+                    color:$primarycolor;
+                    font-family: Hannari;
+                    font-weight: bold;
+                    font-size: 3rem;
+                }
+            }
+            p {
+                color: #868686;
+                font-size: 1.5rem;
+                line-height: 3em;
+                span {
+                    color: $primarycolor;
+                    font-weight: 700;
+                }
+            }
+            button {
+                background-color: $secondarycolor;
+                border-radius: 40px;
+                padding: 0.5em 1.5em;
+            }
+            img {
+                width: 80%;
+                margin-top: 2em;
+            }
+
+        }
+    }
 }
