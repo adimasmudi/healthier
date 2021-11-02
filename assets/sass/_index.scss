@@ -1,25 +1,11 @@
-// variabel
-$primarycolor: #215a80;
-$secondarycolor: #6acbda;
-$main-bg-color: #e9ecef;
+
 
 body {
     background-color: $main-bg-color;
 }
 .custom-nav {
     background-color: $main-bg-color;
-    .navbar-brand {
-        img {
-            width: 50px;
-            height: 40px;
-        }
-        span {
-            color: $primarycolor;
-            font-family: Hannari;
-            font-weight: bold;
-            margin-left: 1em;
-        }
-    }
+
 }
 #navbarNav {
     .navbar-nav {

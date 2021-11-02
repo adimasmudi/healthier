@@ -1,21 +1,33 @@
+.logo-size {
+  height: 40px;
+  width: 50px;
+}
+
+.logo-name {
+  color: #215a80;
+  font-family: sans-serif,Arial, Helvetica;
+  font-weight: bold;
+}
+
+.dashboard-title {
+  font-family: sans-serif,Arial, Helvetica;
+  font-size: 20px;
+  font-weight: bold;
+  color: #143C56;
+  margin-left: 10vw;
+  line-height: 50px;
+}
+
+.hidden {
+  visibility: hidden;
+}
+
 body {
   background-color: #e9ecef;
 }
 
 .custom-nav {
   background-color: #e9ecef;
-}
-
-.custom-nav .navbar-brand img {
-  width: 50px;
-  height: 40px;
-}
-
-.custom-nav .navbar-brand span {
-  color: #215a80;
-  font-family: Hannari;
-  font-weight: bold;
-  margin-left: 1em;
 }
 
 #navbarNav .navbar-nav .nav-item .nav-link {
@@ -62,5 +74,23 @@ body {
 .banner .container .row img {
   width: 80%;
   margin-top: 2em;
+}
+
+body nav {
+  padding-left: 20px;
+}
+
+body nav .group-up-corner-btn {
+  width: 200px;
+}
+
+body nav .group-up-corner-btn i {
+  font-size: 25px;
+  color: #215a80;
+  line-height: 6vh;
+}
+
+body nav .group-up-corner-btn i:hover {
+  cursor: pointer;
 }
 /*# sourceMappingURL=style.css.map */

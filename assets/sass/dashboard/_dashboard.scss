@@ -1,0 +1,22 @@
+
+body{
+    nav{
+        padding-left:20px;
+        .group-up-corner-btn{
+            width:200px;
+
+            i{
+                font-size: 25px;
+                color : $primarycolor;
+                line-height: 6vh;
+
+                &:hover{
+                    cursor:pointer;
+                }
+            }
+           
+        }
+
+        
+    }
+}
